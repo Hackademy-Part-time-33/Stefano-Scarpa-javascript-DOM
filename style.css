@@ -1,0 +1,43 @@
+.bold {
+    font-weight: bold;
+}
+
+.view {
+    display: none;
+}
+
+#sezioneArticoli {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+article {
+    width: 280px;
+    height: 200px;
+    box-shadow: 3px 3px 8px black;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.paragrafi {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.paragrafi p {
+    width: 28%;
+    height: 200px;
+    padding: 1rem;
+}
+
